@@ -1,127 +1,124 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Ke Han</title>
-  
-  <meta name="author" content="Ke Han">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="image/fdu.ico">
-
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>Ke Han - Personal Website</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;max-width:800px;margin:0 auto;padding:1.5rem;line-height:1.55;}
+    h1{font-size:2rem;margin-bottom:.5rem;}
+    h2{font-size:1.3rem;margin-top:1.5rem;}
+    ul{margin:0;padding-left:1.2rem;}
+    li{margin-bottom:.3rem;}
+    a{color:#0070c9;text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    .name{font-size:2rem;font-weight:bold;}
+    .subtitle{font-size:1.1rem;color:#555;}
+    .section{margin-bottom:1.5rem;}
+     .profile-photo {
+       width: 200px;
+       height: 200px;
+       border-radius: 12px;
+       object-fit: cover;
+       margin-left: 0.8rem;
+       margin-bottom: 1.2rem;
+       align-self: center;
+     }
+     header {
+       display: flex;
+       align-items: flex-start;
+       flex-direction: row;
+       gap: 2rem;
+     }
+     .header-content {
+       flex: 1;
+     }
+     .main-content {
+       display: flex;
+       align-items: flex-start;
+       gap: 2rem;
+       margin-bottom: 2rem;
+     }
+     .text-content {
+       flex: 1;
+     }
+  </style>
 </head>
-
-  <body>
-  <table width="950" border="0" align="center" cellspacing="0" cellpadding="0">
-    <tr>
-    <td>
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr>
-        <td width="67%" valign="middle">
-        <p align="center">
-          <name>Ke Han &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		  </name>
-        </p>
-		<p>
-      I am a Ph.D. student at <a href="https://www.purdue.edu/">Purdue University</a>. <br/>
-      My research interests span software reliability and distributed systems. <br/>
-		</p>
-		
-        </p>
-
-        <p align=center>
-          <a href="mailto:kehan5800@gmail.com">Email</a> &nbsp/&nbsp
-          <a href="https://www.linkedin.com/in/ke-han-197867191/">LinkedIn</a> &nbsp/&nbsp
-          <a href="https://github.com/hanke580">Github</a>
-        </p>
-
-        </td>
-        <td width="33%">
-        <img src="image/hk.jpg" width="240">
-        </td>
-      </tr>
-      </table>
-
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-  <tr>
-    <td width="100%" valign="middle">
-      <heading>Internship</heading>
-    </td>
-  </tr>
-  </table>
-
-  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-
-  <tr>
-      <td width="10%">
-        <img src='image/cuhk.png' width="70">
-      </td>
-
-      <td width="75%" valign="middle">
-      <p>
-      <stronghuge>Chinese University of Hong Kong</stronghuge><br />
-      Research Assistant, System Lab &nbsp;&nbsp;&nbsp;&nbsp; &bull; Feb. 2021 - Aug. 2021 <br />
-      Advisor: <a href="https://www.cse.cuhk.edu.hk/~jcheng/">Prof. James Cheng</a>
+<body>
+  <div class="main-content section">
+    <div class='text-content'>
+      <br><br>
+      <div class='name'>Ke Han</div>
+      <!-- <div class='subtitle'>Ph.D. Student</div>
+      <div class='subtitle'>Department of Computer Science</div>
+      <div class='subtitle'>Purdue University, West Lafayette</div> -->
+      
+      <p style="text-align: justify; margin-top: 1.5rem;">
+        I am a PhD student in the <a href="https://www.cs.purdue.edu/" target="_blank" rel="noopener">Computer Science Department</a> at Purdue University, West Lafayette, where I'm fortunate to be advised by Prof. <a href="https://www.cs.purdue.edu/homes/bb/" target="_blank" rel="noopener">Bharat K. Bhargava</a>.<br>
+        My research interests span software reliability, distributed and database systems.
       </p>
-    </td>
-  </tr>	  
-    
-      <tr>
-      <td width="10%">
-        <img src='image/aws.png' width="70">
-      </td>
 
-      <td width="75%" valign="middle">
       <p>
-      <stronghuge>Amazon, Shanghai</stronghuge><br />
-      Software Developer Intern &nbsp;&nbsp;&nbsp;&nbsp; &bull; Nov. 2019 - Nov. 2020 <br />
+        <a href="mailto:kehan5800@gmail.com">Email</a> / 
+        <a href="https://github.com/hanke580" target="_blank" rel="noopener">GitHub</a> / 
+        <a href="https://www.linkedin.com/in/ke-han-197867191/" target="_blank" rel="noopener">LinkedIn</a>
       </p>
-    </td>
-  </tr>
-    
-  </table>
+    </div>
+    <img src="image/photo2.JPG" alt="Ke Han" class="profile-photo">
+  </div>
 
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr>
-        <td width="100%" valign="middle">
-          <heading>Education</heading>
-        </td>
-      </tr>
-      </table>
+      
 
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        <tr>
-          <td width="10%">
-            <img src='image/purdue.png' width="70">
-          </td>
+  <section class='section'>
+    <h2>Publication</h2>
+    <ul>
+      <li>UpFuzz: Detecting Data Format Incompatibility Bugs during Distributed Storage System Upgrade<br>
+        <strong>Ke Han</strong>, Sruthi P C, <a href="https://yayuwang.org/" target="_blank" rel="noopener">Yayu Wang</a>, Yaoxu Song, Bishal Basak Papan, Junwen Yang, Pedro Fonseca, Yongle Zhang.<br>
+        <strong>
+          <a href="https://www.usenix.org/conference/nsdi26" target="_blank" rel="noopener" style="color: black; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">NSDI 2026</a>
+        </strong>
+        [<a href="https://github.com/zlab-purdue/upfuzz" target="_blank" rel="noopener"> code </a>]
+      </li>
+    </ul>
+  </section>
 
-          <td width="75%" valign="middle">
-          <p>
-          <stronghuge>Purdue University</stronghuge><br />
-          Ph.D. student, Department of Computer Science &nbsp;&nbsp;&nbsp;&nbsp; &bull; Aug. 2021 -  <br />
-          </p>
-        </td>
-      </tr>
-      <tr>
-          <td width="10%">
-            <img src='image/fudan.png' width="70">
-          </td>
+  <section class='section'>
+    <h2>Internship</h2>
+    <ul>
+      <li>
+        <strong>Research Assistant</strong>, System Lab, <span style="white-space:nowrap;">Chinese University of Hong Kong</span><br>
+        Feb 2021 - Aug 2021<br>
+        Advisor: Prof. <a href="http://www.cse.cuhk.edu.hk/~jcheng/index.html" target="_blank" rel="noopener">James Cheng</a>
+      </li>
+      <li>
+        <strong>Software Developer Intern</strong>, Amazon AWS<br>
+        Nov 2019 - Nov 2020
+      </li>
+    </ul>
+  </section>
 
-          <td width="75%" valign="middle">
-          <p>
-          <stronghuge>Fudan University</stronghuge><br />
-          Bachelor's Degree in Computer Science &nbsp;&nbsp;&nbsp;&nbsp; &bull; Sep. 2016 - July. 2020 <br />
-          </p>
-        </td>
-      </tr>
+  <section class='section'>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Ph.D.</strong>, Computer Science, Purdue University, West Lafayette, IN, USA &nbsp; (2021-present)</li>
+      <li><strong>B.S.</strong>, Computer Science, Fudan University, Shanghai, CN &nbsp; (2016-2020)</li>
+    </ul>
+  </section>
 
-	      
-      </table>
+  <section class='section'>
+    <h2>Service</h2>
+    <ul>
+      <li>Artifact Evaluation Committee, OSDI 2025, EuroSys 2026</li>
+    </ul>
+  </section>
+
+  <section class='section'>
+    <h2>Misc</h2>
+    <ul>
+      <li>I spend most of my free time playing basketball. 🏀</li>
+    </ul>
+  </section>
 
 
-	
-	  <p></p><p></p><p></p><p></p><p></p>
-
-    <footer class="section" style="text-align: right;">
-      <p>Made with <a href='https://tingjia-0v0.github.io/'>Tingjia</a></p>
-    </footer>
-  </body>
+  <footer><p class='footnote' style='font-size: 0.8em; text-align: right;'>Website made with <a href='https://tingjia-0v0.github.io/'>Tingjia</a>!</p></footer>
+</body>
 </html>
